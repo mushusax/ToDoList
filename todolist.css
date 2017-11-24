@@ -1,0 +1,27 @@
+body{
+  font-family: 'Expletus Sans';
+  background-color: whitesmoke;
+  margin: 5%;
+  color: whitesmoke;
+}
+
+header{
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  background-color: indianred;
+}
+
+#flex_inputs{
+
+}
+
+/*list items*/
+ul{
+  background-color: indianred;
+}
+
+/*Individual list item*/
+li{
+
+}
