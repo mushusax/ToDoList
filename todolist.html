@@ -15,14 +15,20 @@
     </header>
 
     <!--Insert element-->
-    <label for="item_title">Title:</label>
-    <input id="item_title" type="text">
-    <label for="item_description">Description:</label>
-    <input id="item_description" type="text">
-    <input type="button" onclick='createTodo()' value="Submit"/>
+    <div id="input_div">
+      <label for="item_title">Title:</label>
+      <input id="item_title" type="text">
+      <label for="item_description">Description:</label>
+      <input id="item_description" type="text">
+      <input type="button" onclick='createTodo()' value="Submit"/>
+    </div>
+
 
     <!--List-->
-    <ul id="list"></ul>
+    <div id="flex_box">
+      <ul id="list"></ul>
+    </div>
+
 
   </body>
   <script src="./todolist.js"></script>

@@ -14,6 +14,8 @@ function createTodo() {
   div.appendChild(h);
   div.appendChild(p);
 
+  div.setAttribute("id", "div_list");
+
   list_node.appendChild(div);
   document.getElementById("list").appendChild(list_node);
 }
